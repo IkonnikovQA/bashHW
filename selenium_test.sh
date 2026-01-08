@@ -19,4 +19,7 @@ echo "URL: $url"
 echo "Browser: $browser_name"
 echo "Version: $browser_version"
 
+echo "Запуск тестов через Maven..."
+mvn clean test
+
 echo "Результаты выполнения тестов:"
